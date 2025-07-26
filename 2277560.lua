@@ -1,13 +1,12 @@
 addappid(2277560)
+addappid(2277561, 1, "6db3af8b5be3def24c758a005feb7fa0f65750716392328e2f14321340adb273")
+setManifestid(2277561, "1428935050496192033", 48183743633)
+addappid(3758191, 1, "6a02a8415b11cc2d0d5578a0bb93e955abb933fbb378d43149a2105e5f32590a")
+setManifestid(3758191, "3667270011420263529", 184086462)
+addappid(3758192, 1, "3c6aafecacfcd5f0ef971f364de81fcf4752115de544aa3a40c8f8a2ce0bcbe7")
+setManifestid(3758192, "4327368172555153043", 462572269)
 addappid(3653760)
 addappid(3653770)
 addappid(3653780)
 addappid(3653790)
-addappid(2277561,0,"6db3af8b5be3def24c758a005feb7fa0f65750716392328e2f14321340adb273")
-setManifestid(2277561,"7061540054318176519")
-
-
---[[
-This file belongs to Ahmeds Bot Discord Server
------> join discord Server : https://discord.gg/sv6EGxCRnC
-]]
+addappid(3758190)
