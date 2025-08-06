@@ -1,0 +1,14 @@
+addappid(1154030)
+addappid(1154031,0,"e4c24aa5ff3a15fba8dcb2762211078a3f284a840b9514a64e6694e2acbb33b3")
+addappid(1154032,0,"43500c93da407fa7209d086b870b5e21bf2fe23eb5b4222593992edd340ca26e")
+addappid(1154033,0,"fd8d7e7db90c144288acda1e77897ffd3ecc1acc26408079c1c8f54c095d3f49")
+setManifestid(1154031,"4773618536299084955")
+setManifestid(1154032,"8943718197483663397")
+setManifestid(1154033,"5675640506793085519")
+
+
+
+--[[
+This file belongs to Ahmeds Bot Discord Server
+-----> join discord Server : https://discord.gg/sv6EGxCRnC
+]]
