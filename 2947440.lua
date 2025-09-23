@@ -8,3 +8,10 @@ addtoken(3282160,"1723734955608826062")
 addtoken(3282170,"8745338579199605697")
 addtoken(3282180,"2435190140460799412")
 addtoken(3282190,"17422305961579312315")
+
+
+
+--[[
+This file belongs to Ahmeds Bot Discord Server
+-----> join discord Server : https://discord.gg/sv6EGxCRnC
+]]
