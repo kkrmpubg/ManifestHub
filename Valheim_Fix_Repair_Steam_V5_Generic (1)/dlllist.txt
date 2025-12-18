@@ -1,0 +1,6 @@
+SteamOverlay64.dll
+OnlineFix64.dll
+MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+valheim_Data\Managed\com.rlabrecque.steamworks.net.net.org
+valheim_Data\Managed\PlayFab.net.org
+Custom.net
