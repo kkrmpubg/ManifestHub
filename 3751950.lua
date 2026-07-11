@@ -1,10 +1,12 @@
 -- Generated with Luie @ https://lua.tools/
 -- 3751950 - Assassin's Creed Black Flag Resynced
--- Generated 2026-07-11 04:54:26 UTC
+-- LOCKED TO THE RELEASE VERSION FOR HYPERVISOR
+
+-- Generated 2026-07-09 21:45:21 UTC
 -- # Depots (Total/DLC/Shared): 10/0/2
 
 -- Main AppID
-addappid(3751950, 1, "e6d96386c77349411f5be39f2955ee0649a9a80abd22c3d69752bfc6e3302539")
+addappid(3751950)
 
 -- Main Depots
 addappid(3751951, 1, "0495628add2f29892c7a7930e1ed5332f68e374d7621e3338f23492fcd8f23db")
@@ -53,4 +55,4 @@ addappid(4892480) -- Assassin's Creed Black Flag Resynced - Deluxe Edition - PRE
 -- Shared Depots (Runtimes / Launchers / ETC)
 addappid(228989, 1, "ad69276eb476cf06c40312df7376d63deac0c838b9a2767005be8bb306ffb853") -- (windows)
 addappid(1716751, 1, "84780b728a23b1dabbe8b064807ccd3dbd40c67139ed569101104a418c581675")
-setManifestid(1716751, "8936186649444731600", 264933784)
+-- setManifestid(1716751, "8936186649444731600", 264933784)
