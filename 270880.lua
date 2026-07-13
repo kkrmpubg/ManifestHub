@@ -1,253 +1,269 @@
--- 270880's Lua and Manifest Created by Morrenus
--- American Truck Simulator
--- Created: December 04, 2025 at 13:30:53 EST
--- Website: https://manifest.morrenus.xyz/
--- Total Depots: 64
--- Total DLCs: 53 (5 excluded)
+-- Generated with Luie @ https://lua.tools/
+-- 270880 - American Truck Simulator
+-- Generated 2026-07-13 18:50:57 UTC
+-- # Depots (Total/DLC/Shared): 77/73/0
 
--- MAIN APPLICATION
-addappid(270880, 1, "73fb1b0d84405e9e475ea2185cea2dba8667f5971472b506dbcc44bd9c8e0ccb") -- American Truck Simulator
--- MAIN APP DEPOTS
-addappid(270881, 1, "f94868b2aae2579ce595b4cc9560f649c2db7d93fe280b938ba7fdbe613ad11c") -- American Truck Simulator - Content
-setManifestid(270881, "3349900845233841806", 23343904522)
-addappid(270882, 1, "fce5a3213079ef0488c660325077b4f413d3cf68b11dde841840cc463773a102") -- American Truck Simulator - Windows
-setManifestid(270882, "764575100659103477", 57796680)
-addappid(270883, 1, "bf688e332ee96e2934ee8d06b1258435ee48f37be64cd9e14553d2cccf3a4793") -- American Truck Simulator - GNU/Linux
-setManifestid(270883, "8262770260518075700", 53293360)
-addappid(270884, 1, "d801c40a476be58164b180e53ab1ccd0549b628dee728698b66b9c43e89aecd0") -- American Truck Simulator - macOS
-setManifestid(270884, "836280665434796061", 63478611)
-addappid(421090, 1, "5d61076dd16db3de635170ca7acd521f8e4a99236787eb9df11a000cde20e23b") -- American Truck Simulator - Nevada (421090) Depot
-setManifestid(421090, "8165845442882235979", 42294543)
-addappid(421070, 1, "ef1ca02be68d36f1eb3686d3cbf3fc59ef7efc5b29c720e79808ebf626ad17ea") -- American Truck Simulator - Kenworth T680 (421070) Depot
+-- Main AppID
+addappid(270880, 1, "73fb1b0d84405e9e475ea2185cea2dba8667f5971472b506dbcc44bd9c8e0ccb")
+
+-- Main Depots
+addappid(270881, 1, "f94868b2aae2579ce595b4cc9560f649c2db7d93fe280b938ba7fdbe613ad11c")
+setManifestid(270881, "3876626237809646374", 24806956638)
+addappid(270882, 1, "fce5a3213079ef0488c660325077b4f413d3cf68b11dde841840cc463773a102") -- (windows)
+setManifestid(270882, "3741558341835061249", 60706376)
+addappid(270883, 1, "bf688e332ee96e2934ee8d06b1258435ee48f37be64cd9e14553d2cccf3a4793") -- (linux)
+setManifestid(270883, "5761126174135261057", 55171184)
+addappid(270884, 1, "d801c40a476be58164b180e53ab1ccd0549b628dee728698b66b9c43e89aecd0") -- (macos)
+setManifestid(270884, "8477491632550689493", 103225015)
+
+-- DLC's (with depot keys)
+-- American Truck Simulator - Kenworth T680 (AppID: 421070)
+addappid(421070)
+addappid(421070, 1, "ef1ca02be68d36f1eb3686d3cbf3fc59ef7efc5b29c720e79808ebf626ad17ea")
 setManifestid(421070, "8169493434990176546", 0)
-addappid(421080, 1, "b3809d7ed60c1ea51585182f79bb265ce7f7e35e21940a84d5ce0584c87f8078") -- American Truck Simulator - Peterbilt 579 (421080) Depot
+-- American Truck Simulator - Peterbilt 579 (AppID: 421080)
+addappid(421080)
+addappid(421080, 1, "b3809d7ed60c1ea51585182f79bb265ce7f7e35e21940a84d5ce0584c87f8078")
 setManifestid(421080, "5876741541824085703", 0)
-addappid(421081, 1, "ca26b32816a17e091f968eb9d10f501bf282623e91426e6c68b6c62a657ebe33") -- American Truck Simulator - Volvo VNL (421081) Depot
+-- DLC 421081 (AppID: 421081)
+addappid(421081)
+addappid(421081, 1, "ca26b32816a17e091f968eb9d10f501bf282623e91426e6c68b6c62a657ebe33")
 setManifestid(421081, "515058574934992941", 0)
-addappid(422310, 1, "7f4cee26dcc61f7158a2b1a909f18f1a1be24ac3668dfdc0e88272c2d5174fed") -- American Truck Simulator - Kenworth W900 (422310) Depot
+-- American Truck Simulator - Nevada (AppID: 421090)
+addappid(421090)
+addappid(421090, 1, "5d61076dd16db3de635170ca7acd521f8e4a99236787eb9df11a000cde20e23b")
+setManifestid(421090, "7516117083832359470", 43576337)
+-- American Truck Simulator - Kenworth W900 (AppID: 422310)
+addappid(422310)
+addappid(422310, 1, "7f4cee26dcc61f7158a2b1a909f18f1a1be24ac3668dfdc0e88272c2d5174fed")
 setManifestid(422310, "4599348267446784704", 0)
-addappid(541260, 1, "83a785ccc1b0de28f91c8a9707917cd9d9dd3521b56ee3d90668b5c7e61d2de6") -- American Truck Simulator - Peterbilt 389 (541260) Depot
-setManifestid(541260, "9016003332975462182", 0)
-addappid(1149810, 1, "9d006f900cfd6d56ce660275a76440ba807a05574606cf96ce629b0cb9521410") -- American Truck Simulator - International LoneStar (1149810) Depot
-setManifestid(1149810, "4146924956824321246", 0)
--- DLCS WITH DEDICATED DEPOTS
 -- American Truck Simulator - Steampunk Paint Jobs Pack (AppID: 432710)
 addappid(432710)
-addappid(432710, 1, "64e25ccd77a281b756a6b6dc2cd633d9496b7314ff580d1a84efdcf2f9de3765") -- American Truck Simulator - Steampunk Paint Jobs Pack - American Truck Simulator - Steampunk Paint Jobs Pack (432710) Depot
+addappid(432710, 1, "64e25ccd77a281b756a6b6dc2cd633d9496b7314ff580d1a84efdcf2f9de3765")
 setManifestid(432710, "4149600135025716899", 0)
 -- American Truck Simulator - Wheel Tuning Pack (AppID: 450550)
 addappid(450550)
-addappid(450550, 1, "d6cb25845c1e0b94d6257d12b72f33b91219629dcb64b1a89946b7d6293e644a") -- American Truck Simulator - Wheel Tuning Pack - American Truck Simulator - Wheel Tuning Pack (450550) Depot
+addappid(450550, 1, "d6cb25845c1e0b94d6257d12b72f33b91219629dcb64b1a89946b7d6293e644a")
 setManifestid(450550, "6356452566938046875", 0)
 -- American Truck Simulator - Arizona (AppID: 463740)
 addappid(463740)
-addappid(463740, 1, "47f6e20374bf50928ac3cbae0e1e8a1342050f75c09548581d09732660f4a91d") -- American Truck Simulator - Arizona - American Truck Simulator - Arizona (463740) Depot
-setManifestid(463740, "2048001422914187008", 22288707)
+addappid(463740, 1, "47f6e20374bf50928ac3cbae0e1e8a1342050f75c09548581d09732660f4a91d")
+setManifestid(463740, "5028841836292205343", 118419559)
 -- American Truck Simulator - Steering Creations Pack (AppID: 520550)
 addappid(520550)
-addappid(520550, 1, "9e7cf9b47b389bf24926aec5971f5c51500bb9ee3eb286fe3c00cd2c0a4171c7") -- American Truck Simulator - Steering Creations Pack - American Truck Simulator - Steering Creations Pack (520550) Depot
-setManifestid(520550, "7149842417303380160", 0)
+addappid(520550, 1, "9e7cf9b47b389bf24926aec5971f5c51500bb9ee3eb286fe3c00cd2c0a4171c7")
+setManifestid(520550, "6720522774777303374", 0)
+-- American Truck Simulator - Peterbilt 389 (AppID: 541260)
+addappid(541260)
+addappid(541260, 1, "83a785ccc1b0de28f91c8a9707917cd9d9dd3521b56ee3d90668b5c7e61d2de6")
+setManifestid(541260, "9016003332975462182", 0)
 -- American Truck Simulator - Halloween Paint Jobs Pack (AppID: 546260)
 addappid(546260)
-addappid(546260, 1, "ee6d324a238f8b6eeaa01ab5d795a1d7d3e46f46d39e8887c1caa93eb34b2ed3") -- American Truck Simulator - Halloween Paint Jobs Pack - American Truck Simulator - Halloween Paint Jobs Pack (546260) Depot
+addappid(546260, 1, "ee6d324a238f8b6eeaa01ab5d795a1d7d3e46f46d39e8887c1caa93eb34b2ed3")
 setManifestid(546260, "5337417073288494106", 0)
 -- American Truck Simulator - Dragon Truck Design Pack (AppID: 561620)
 addappid(561620)
-addtoken(561620, "9674459236647318015")
-addappid(561620, 1, "635e9a9a1e7c74b2f533468fd15ef1e90ca1acc8e5c026f9182d867dc19730ca") -- American Truck Simulator - Dragon Truck Design Pack - American Truck Simulator - Dragon Truck Design Pack (561620) Depot
-setManifestid(561620, "8690200655518167883", 0)
+addappid(561620, 1, "635e9a9a1e7c74b2f533468fd15ef1e90ca1acc8e5c026f9182d867dc19730ca")
+setManifestid(561620, "3051963273752211531", 0)
 -- American Truck Simulator - Christmas Paint Jobs Pack (AppID: 566890)
 addappid(566890)
-addappid(566890, 1, "3df4f6777eb177c9d5a1e31998ba86c19554ff3073ade5de4aedceefcb302633") -- American Truck Simulator - Christmas Paint Jobs Pack - American Truck Simulator - Christmas Paint Jobs Pack (566890) Depot
+addappid(566890, 1, "3df4f6777eb177c9d5a1e31998ba86c19554ff3073ade5de4aedceefcb302633")
 setManifestid(566890, "971536768214339644", 0)
--- American Truck Simulator - Valentines Paint Jobs Pack (AppID: 588600)
+-- American Truck Simulator - Valentine's Paint Jobs Pack (AppID: 588600)
 addappid(588600)
-addappid(588600, 1, "5b36ba6721f013a5484f599776ad54390bb6c0e1ef1e645edffd5f338fe31e27") -- American Truck Simulator - Valentines Paint Jobs Pack - American Truck Simulator - Valentine's Paint Jobs Pack (588600) Depot
+addappid(588600, 1, "5b36ba6721f013a5484f599776ad54390bb6c0e1ef1e645edffd5f338fe31e27")
 setManifestid(588600, "7129775120219309754", 0)
 -- American Truck Simulator - Heavy Cargo Pack (AppID: 620610)
 addappid(620610)
-addappid(620610, 1, "a28b6fd765fb0630ea4bac0e2228bbdbfcf77189c716b6e1f723aa40d10e7f44") -- American Truck Simulator - Heavy Cargo Pack - American Truck Simulator - Heavy Cargo Pack (620610) Depot
+addappid(620610, 1, "a28b6fd765fb0630ea4bac0e2228bbdbfcf77189c716b6e1f723aa40d10e7f44")
 setManifestid(620610, "8771153689427663235", 0)
 -- American Truck Simulator - New Mexico (AppID: 684630)
 addappid(684630)
-addappid(684630, 1, "b83ff05e98792262e6dca7054c6cd1df4d02c7db9d008bbed417ea0fa699a93a") -- American Truck Simulator - New Mexico - American Truck Simulator - New Mexico (684630) Depot
-setManifestid(684630, "2935614749680510409", 65882190)
+addappid(684630, 1, "b83ff05e98792262e6dca7054c6cd1df4d02c7db9d008bbed417ea0fa699a93a")
+setManifestid(684630, "1896069532633275384", 104976142)
 -- American Truck Simulator - Oregon (AppID: 800370)
 addappid(800370)
-addappid(800370, 1, "5b351a472fb8194ec2a3e0bfe9becb3cd1d70b100e22ad457cdc7301df4e3fa1") -- American Truck Simulator - Oregon - American Truck Simulator - Oregon (800370) Depot
-setManifestid(800370, "5923728575424183675", 55547012)
+addappid(800370, 1, "5b351a472fb8194ec2a3e0bfe9becb3cd1d70b100e22ad457cdc7301df4e3fa1")
+setManifestid(800370, "6810601345034008007", 55463883)
 -- American Truck Simulator - Classic Stripes Paint Jobs Pack (AppID: 951650)
 addappid(951650)
-addappid(951650, 1, "0d8721903e8f156b515ba99af9ceba82fea7aa689f5ed338952deeb567976f54") -- American Truck Simulator - Classic Stripes Paint Jobs Pack - American Truck Simulator - Classic Stripes Paint Jobs Pack (951650) Depot
-setManifestid(951650, "6400674156008919728", 0)
+addappid(951650, 1, "0d8721903e8f156b515ba99af9ceba82fea7aa689f5ed338952deeb567976f54")
+setManifestid(951650, "4069996803610743172", 0)
 -- American Truck Simulator - Special Transport (AppID: 962750)
 addappid(962750)
-addappid(962750, 1, "bd33a51e92d970bad4531669bc9ff6ef3b63708e19fa2f1b4dbeacf1819130c6") -- American Truck Simulator - Special Transport - American Truck Simulator - Special Transport Depot (962750)
+addappid(962750, 1, "bd33a51e92d970bad4531669bc9ff6ef3b63708e19fa2f1b4dbeacf1819130c6")
 setManifestid(962750, "4357515643689176476", 0)
 -- American Truck Simulator - Washington (AppID: 1015160)
 addappid(1015160)
-addappid(1015160, 1, "4d72f042bc3be9238ddcbb5b029a2fc2e74f4d2ca1b8c63cc642c365e7f2a560") -- American Truck Simulator - Washington - American Truck Simulator - Washington (1015160) Depot
-setManifestid(1015160, "3111080545579231134", 64908326)
+addappid(1015160, 1, "4d72f042bc3be9238ddcbb5b029a2fc2e74f4d2ca1b8c63cc642c365e7f2a560")
+setManifestid(1015160, "3602412537319997708", 64764509)
 -- American Truck Simulator - Forest Machinery (AppID: 1076080)
 addappid(1076080)
-addappid(1076080, 1, "cc730305dadfaedafd0791be481d8199e60fe3e148008abf97ef2a0f76b96707") -- American Truck Simulator - Forest Machinery - American Truck Simulator - Forest Machinery (1076080) Depot
-setManifestid(1076080, "8773331551806415866", 0)
+addappid(1076080, 1, "cc730305dadfaedafd0791be481d8199e60fe3e148008abf97ef2a0f76b96707")
+setManifestid(1076080, "659986890721159214", 0)
 -- American Truck Simulator - Utah (AppID: 1104880)
 addappid(1104880)
-addappid(1104880, 1, "72ff30c730815796e99727200a260dee79f1ec8549c99d6384249fb9a5b18f17") -- American Truck Simulator - Utah - American Truck Simulator - Utah (1104880) Depot
-setManifestid(1104880, "8573328054085630176", 63029035)
+addappid(1104880, 1, "72ff30c730815796e99727200a260dee79f1ec8549c99d6384249fb9a5b18f17")
+setManifestid(1104880, "5963775787066654146", 57569483)
 -- American Truck Simulator - Space Paint Jobs Pack (AppID: 1116310)
 addappid(1116310)
-addappid(1116310, 1, "88b022d1a772eded89dce36f415a145294d9e585b6d7d67fb90eb5c3ea07f522") -- American Truck Simulator - Space Paint Jobs Pack - American Truck Simulator - Space Paint Jobs Pack (1116310) Depot
+addappid(1116310, 1, "88b022d1a772eded89dce36f415a145294d9e585b6d7d67fb90eb5c3ea07f522")
 setManifestid(1116310, "348047091569531530", 0)
+-- DLC 1149810 (AppID: 1149810)
+addappid(1149810)
+addappid(1149810, 1, "9d006f900cfd6d56ce660275a76440ba807a05574606cf96ce629b0cb9521410")
+setManifestid(1149810, "3936783524419508022", 0)
 -- American Truck Simulator - Pink Ribbon Charity Pack (AppID: 1162160)
 addappid(1162160)
-addappid(1162160, 1, "9b74baee93d78fa0372f2ebf7bc261abddb299f645b49bcb506c7ab1ef93db81") -- American Truck Simulator - Pink Ribbon Charity Pack - American Truck Simulator - Pink Ribbon Pack (1162160) Depot
+addappid(1162160, 1, "9b74baee93d78fa0372f2ebf7bc261abddb299f645b49bcb506c7ab1ef93db81")
 setManifestid(1162160, "7223995549485937630", 0)
 -- American Truck Simulator - Idaho (AppID: 1209470)
 addappid(1209470)
-addappid(1209470, 1, "757ef85ac1e944b59162a555336c650e4e94c82a14ae01f10680c2c7b5534852") -- American Truck Simulator - Idaho - American Truck Simulator - Idaho (1209470) Depot
-setManifestid(1209470, "1934688131289630451", 64548616)
+addappid(1209470, 1, "757ef85ac1e944b59162a555336c650e4e94c82a14ae01f10680c2c7b5534852")
+setManifestid(1209470, "8396517117795822806", 64564809)
 -- American Truck Simulator - Colorado (AppID: 1209471)
 addappid(1209471)
-addappid(1209471, 1, "19b6552a79d070cd8c3ac570e7f170fe01dc0ef12938c7163f9bdf944f6e8c24") -- American Truck Simulator - Colorado - American Truck Simulator - Colorado (1209471) Depot
-setManifestid(1209471, "2119831874098209074", 136136892)
--- American Truck Simulator - Mack Anthem (AppID: 1236650)
+addappid(1209471, 1, "19b6552a79d070cd8c3ac570e7f170fe01dc0ef12938c7163f9bdf944f6e8c24")
+setManifestid(1209471, "3993853403282503602", 135007872)
+-- American Truck Simulator - Mack Anthem® (AppID: 1236650)
 addappid(1236650)
-addappid(1236650, 1, "be9109d017c0382880c3670a499087f7380bf7d3b0308ad47f9d7c1393ac4620") -- American Truck Simulator - Mack Anthem - American Truck Simulator - Mack Anthem (1236650) Depot
+addappid(1236650, 1, "be9109d017c0382880c3670a499087f7380bf7d3b0308ad47f9d7c1393ac4620")
 setManifestid(1236650, "403939628250608492", 0)
--- American Truck Simulator - Freightliner Cascadia (3r4th Generation) (AppID: 1415690)
+-- American Truck Simulator - Freightliner Cascadia® (3r/4th Generation) (AppID: 1415690)
 addappid(1415690)
-addappid(1415690, 1, "b13f20b36078f8d5e553ab6026d887a2a868c8ad81a962dde730d44be2e1d1c0") -- American Truck Simulator - Freightliner Cascadia (3r4th Generation) - American Truck Simulator - Freightliner Cascadia (1415690) Depot
-setManifestid(1415690, "8641916714218103136", 0)
--- American Truck Simulator - Western Star 49X (AppID: 1415691)
+addappid(1415690, 1, "b13f20b36078f8d5e553ab6026d887a2a868c8ad81a962dde730d44be2e1d1c0")
+setManifestid(1415690, "1046421566290452863", 0)
+-- American Truck Simulator - Western Star® 49X (AppID: 1415691)
 addappid(1415691)
-addappid(1415691, 1, "e9de25d429aebc710b728b4e5f4a004105840c3156655cf8122023045294f655") -- American Truck Simulator - Western Star 49X - American Truck Simulator - Western Star® 49X (1415691) Depot
+addappid(1415691, 1, "e9de25d429aebc710b728b4e5f4a004105840c3156655cf8122023045294f655")
 setManifestid(1415691, "5600695055779905726", 0)
 -- American Truck Simulator - Wyoming (AppID: 1415692)
 addappid(1415692)
-addappid(1415692, 1, "c5c09e5aa105c74d91891a4a003e8c8be58e981b7c77eeaa787384cdde0bd5d0") -- American Truck Simulator - Wyoming - American Truck Simulator - Wyoming (1415692) Depot
-setManifestid(1415692, "1779099602454629809", 183604599)
+addappid(1415692, 1, "c5c09e5aa105c74d91891a4a003e8c8be58e981b7c77eeaa787384cdde0bd5d0")
+setManifestid(1415692, "2873400503895218838", 184373710)
 -- American Truck Simulator - Texas (AppID: 1465750)
 addappid(1465750)
-addappid(1465750, 1, "fb07018fa485ec3752022d570bb1108d687eaac2f82ce8a6cfc62202b7f020e0") -- American Truck Simulator - Texas - American Truck Simulator - Texas (1465750) Depot
-setManifestid(1465750, "1571911292716518107", 496428966)
+addappid(1465750, 1, "fb07018fa485ec3752022d570bb1108d687eaac2f82ce8a6cfc62202b7f020e0")
+setManifestid(1465750, "2056748951405925201", 492227312)
 -- American Truck Simulator - Cabin Accessories (AppID: 1477840)
 addappid(1477840)
-addappid(1477840, 1, "5b5702561860099c649c687721bd638131d48acff77188258b1fdb8cf533a164") -- American Truck Simulator - Cabin Accessories - American Truck Simulator - Cabin Accessories (1477840) Depot
+addappid(1477840, 1, "5b5702561860099c649c687721bd638131d48acff77188258b1fdb8cf533a164")
 setManifestid(1477840, "2063882711744259797", 0)
 -- American Truck Simulator - Goodyear Tires Pack (AppID: 1621740)
 addappid(1621740)
-addappid(1621740, 1, "5087a438f9aa146a13ea722baa42ac6c99a09ffeb7798057a0a8d354bb069992") -- American Truck Simulator - Goodyear Tires Pack - American Truck Simulator - Goodyear Tires Pack (1621740) Depot
-setManifestid(1621740, "4650460462313041576", 0)
+addappid(1621740, 1, "5087a438f9aa146a13ea722baa42ac6c99a09ffeb7798057a0a8d354bb069992")
+setManifestid(1621740, "2951967185987491280", 0)
 -- American Truck Simulator - Volvo Construction Equipment (AppID: 1662380)
 addappid(1662380)
-addappid(1662380, 1, "e1b13066bfbb97e98d4e0bbbbee8c42b3a0e99129882481aa014b041c1219e5c") -- American Truck Simulator - Volvo Construction Equipment - American Truck Simulator - Volvo Construction Equipment (1662380) Depot
-setManifestid(1662380, "8778989030003415640", 0)
--- American Truck Simulator - International LT (AppID: 1708620)
+addappid(1662380, 1, "e1b13066bfbb97e98d4e0bbbbee8c42b3a0e99129882481aa014b041c1219e5c")
+setManifestid(1662380, "4633042356733318099", 0)
+-- American Truck Simulator - International LT® (AppID: 1708620)
 addappid(1708620)
-addappid(1708620, 1, "2464de269c24661e6be82d6a67b3ff7ceb38d2393456fa62b5625ed16561d9a0") -- American Truck Simulator - International LT - American Truck Simulator - International LT (1708620) Depot
-setManifestid(1708620, "9032744893298564670", 0)
+addappid(1708620, 1, "2464de269c24661e6be82d6a67b3ff7ceb38d2393456fa62b5625ed16561d9a0")
+setManifestid(1708620, "5461248253475078643", 0)
 -- American Truck Simulator - Retrowave Paint Jobs Pack (AppID: 1784890)
 addappid(1784890)
-addappid(1784890, 1, "c114883449c3e90aa527d00e39f7adb22ae666956105f2266c6b1cc89bb446fa") -- American Truck Simulator - Retrowave Paint Jobs Pack - American Truck Simulator - Retrowave Paint Jobs Pack (1784890) Depot
-setManifestid(1784890, "4398020392190842052", 0)
+addappid(1784890, 1, "c114883449c3e90aa527d00e39f7adb22ae666956105f2266c6b1cc89bb446fa")
+setManifestid(1784890, "2966314702172464364", 0)
 -- American Truck Simulator - Montana (AppID: 1811080)
 addappid(1811080)
-addappid(1811080, 1, "5c1aceb43768228e4acb34669db372e81d352df4c1a296a5d84d5cdd4c6ca69e") -- American Truck Simulator - Montana - American Truck Simulator - Montana (1811080) Depot
-setManifestid(1811080, "3053293311413075926", 276925172)
+addappid(1811080, 1, "5c1aceb43768228e4acb34669db372e81d352df4c1a296a5d84d5cdd4c6ca69e")
+setManifestid(1811080, "6977821494591370225", 277107481)
 -- American Truck Simulator - International 9900i (AppID: 1915840)
 addappid(1915840)
-addappid(1915840, 1, "54beb526ef1e0618d8d76398cec6ba0e52ed50b2aa89132c7649adf4309b9dea") -- American Truck Simulator - International 9900i - American Truck Simulator - International 9900i (1915840) Depot
-setManifestid(1915840, "9127752148964148506", 0)
--- American Truck Simulator - Lode King  Prestige Trailers Pack (AppID: 1967690)
+addappid(1915840, 1, "54beb526ef1e0618d8d76398cec6ba0e52ed50b2aa89132c7649adf4309b9dea")
+setManifestid(1915840, "6306668266471803411", 0)
+-- American Truck Simulator - Lode King & Prestige Trailers Pack (AppID: 1967690)
 addappid(1967690)
-addappid(1967690, 1, "d6acdeb48b3eec1ed643f93b14156e1c61fd92b9b9707f1b4ac8541aec263abd") -- American Truck Simulator - Lode King  Prestige Trailers Pack - American Truck Simulator - Lode King & Prestige Trailers (1967690) Depot
-setManifestid(1967690, "8881880834414401456", 0)
--- American Truck Simulator - Western Star 57X (AppID: 2093200)
+addappid(1967690, 1, "d6acdeb48b3eec1ed643f93b14156e1c61fd92b9b9707f1b4ac8541aec263abd")
+setManifestid(1967690, "2872873197390325229", 0)
+-- American Truck Simulator - Western Star® 57X (AppID: 2093200)
 addappid(2093200)
-addappid(2093200, 1, "5dc571553905035e1f8d8978a218d4024fabea55b119b5b5e3251b4b17cc0e73") -- American Truck Simulator - Western Star 57X - American Truck Simulator - Phoenix Rising (2093200) Depot
-setManifestid(2093200, "8446052161774650967", 0)
+addappid(2093200, 1, "5dc571553905035e1f8d8978a218d4024fabea55b119b5b5e3251b4b17cc0e73")
+setManifestid(2093200, "5942316112928920306", 0)
 -- American Truck Simulator - Wild West Paint Jobs Pack (AppID: 2187930)
 addappid(2187930)
-addappid(2187930, 1, "a07f486a79f2ac080fa7832d372fbea62c6682adc02e7ad4c554e27e6f128a9a") -- American Truck Simulator - Wild West Paint Jobs Pack - American Truck Simulator - Wild West Paint Jobs Pack (2187930) Depot
-setManifestid(2187930, "7594260954117990988", 0)
+addappid(2187930, 1, "a07f486a79f2ac080fa7832d372fbea62c6682adc02e7ad4c554e27e6f128a9a")
+setManifestid(2187930, "3435088043253893516", 0)
 -- American Truck Simulator - Oklahoma (AppID: 2209650)
 addappid(2209650)
-addappid(2209650, 1, "6bcbf2ca269cba04495810447920edea09fa3fe52bcdf4bb4d2aafe1e552bd9c") -- American Truck Simulator - Oklahoma - American Truck Simulator - lma (2209650) Depot
-setManifestid(2209650, "4345172915619220226", 162506572)
--- American Truck Simulator - Western Star 5700XE (AppID: 2257950)
+addappid(2209650, 1, "6bcbf2ca269cba04495810447920edea09fa3fe52bcdf4bb4d2aafe1e552bd9c")
+setManifestid(2209650, "4754568792671624573", 160810136)
+-- American Truck Simulator - Western Star® 5700XE (AppID: 2257950)
 addappid(2257950)
-addappid(2257950, 1, "6f063a928ad302afe38c3b66fac2534279ebeda8c4b53f0de80d6baaa65d5f21") -- American Truck Simulator - Western Star 5700XE - American Truck Simulator - w (2257950) Depot
+addappid(2257950, 1, "6f063a928ad302afe38c3b66fac2534279ebeda8c4b53f0de80d6baaa65d5f21")
 setManifestid(2257950, "8688684472672409532", 0)
 -- American Truck Simulator - Kansas (AppID: 2298430)
 addappid(2298430)
-addappid(2298430, 1, "078aa0f7624ad82ee97bbe88e2b8fcdc34ad16d46eb548937fca3b9d75b4cff9") -- American Truck Simulator - Kansas - American Truck Simulator - Kansas
-setManifestid(2298430, "5911259595911325105", 128797985)
--- American Truck Simulator - Volvo VNL (AppID: 2386480)
+addappid(2298430, 1, "078aa0f7624ad82ee97bbe88e2b8fcdc34ad16d46eb548937fca3b9d75b4cff9")
+setManifestid(2298430, "2023970975279782836", 124508647)
+-- American Truck Simulator - Volvo VNL 2018 (AppID: 2386480)
 addappid(2386480)
-addappid(2386480, 1, "261a79855ff8d122f6e2b198a3099b9250e76fdeb7a7e702f490b5cf0efecc74") -- American Truck Simulator - Volvo VNL - American Truck Simulator - Volvo VNL
-setManifestid(2386480, "6839742813244502689", 0)
+addappid(2386480, 1, "261a79855ff8d122f6e2b198a3099b9250e76fdeb7a7e702f490b5cf0efecc74")
+setManifestid(2386480, "497598844484243710", 0)
 -- American Truck Simulator - W900 Tuning Pack (AppID: 2386530)
 addappid(2386530)
-addappid(2386530, 1, "be39dde039d636df9a80415f5b08ad5327fae617937cf957d9b7e5e483bf8c5e") -- American Truck Simulator - W900 Tuning Pack - American Truck Simulator - W900 Tuning Pack
+addappid(2386530, 1, "be39dde039d636df9a80415f5b08ad5327fae617937cf957d9b7e5e483bf8c5e")
 setManifestid(2386530, "2958423849438833889", 0)
 -- American Truck Simulator - Nebraska (AppID: 2543810)
 addappid(2543810)
-addappid(2543810, 1, "0b920caa9735843508dc845bfc14890b3bff0a9a039f9b390510f0fe23adef7b") -- American Truck Simulator - Nebraska - Depot 2543810
-setManifestid(2543810, "7519224174351880603", 138572787)
+addappid(2543810, 1, "0b920caa9735843508dc845bfc14890b3bff0a9a039f9b390510f0fe23adef7b")
+setManifestid(2543810, "1157599248636057931", 138542692)
 -- American Truck Simulator - Arkansas (AppID: 2585150)
 addappid(2585150)
-addappid(2585150, 1, "366a99af7f33693c3f554990db3d0a267fd78e2152f76e810251dc2fa01c2627") -- American Truck Simulator - Arkansas - Depot 2585150
-setManifestid(2585150, "1819261245344106100", 131864769)
+addappid(2585150, 1, "366a99af7f33693c3f554990db3d0a267fd78e2152f76e810251dc2fa01c2627")
+setManifestid(2585150, "2715365742696498961", 131409310)
 -- American Truck Simulator - Farm Machinery (AppID: 2638630)
 addappid(2638630)
-addappid(2638630, 1, "79dd85a39f3ed2af37aa9976d42b17c487fe8b315d414fa365eeeff265984889") -- American Truck Simulator - Farm Machinery - Depot 2638630
+addappid(2638630, 1, "79dd85a39f3ed2af37aa9976d42b17c487fe8b315d414fa365eeeff265984889")
 setManifestid(2638630, "534253102025906285", 0)
 -- American Truck Simulator - Michelin Fan Pack (AppID: 2675870)
 addappid(2675870)
-addappid(2675870, 1, "fff2970bc435f238a55f8e781e407cb93bd002d2abea12b4d3bfb04a9d545b6e") -- American Truck Simulator - Michelin Fan Pack - Depot 2675870
+addappid(2675870, 1, "fff2970bc435f238a55f8e781e407cb93bd002d2abea12b4d3bfb04a9d545b6e")
 setManifestid(2675870, "8750948300913479856", 0)
 -- American Truck Simulator - Kenworth T680 2022 (AppID: 2720080)
 addappid(2720080)
-addappid(2720080, 1, "1d5108be17616c1294e9deca093b721868c5a7663fa26f8502a4223bfc9936fc") -- American Truck Simulator - Kenworth T680 2022 - Depot 2720080
-setManifestid(2720080, "8799673683826690182", 0)
+addappid(2720080, 1, "1d5108be17616c1294e9deca093b721868c5a7663fa26f8502a4223bfc9936fc")
+setManifestid(2720080, "5863575045093730890", 0)
 -- American Truck Simulator - Missouri (AppID: 2730870)
 addappid(2730870)
-addappid(2730870, 1, "9e1e19ea1811a4b4cec98af8584ff5a7fb13da5c0272d2479afa9d69617fe865") -- American Truck Simulator - Missouri - Depot 2730870
-setManifestid(2730870, "6703880344353413425", 178612843)
+addappid(2730870, 1, "9e1e19ea1811a4b4cec98af8584ff5a7fb13da5c0272d2479afa9d69617fe865")
+setManifestid(2730870, "7989391398692757753", 81832272)
 -- American Truck Simulator - Sports Paint Jobs Pack (AppID: 2910160)
 addappid(2910160)
-addappid(2910160, 1, "19b2b6718f6e8962618c27d20350f198aad895292573bc0841fdefae1b6d722f") -- American Truck Simulator - Sports Paint Jobs Pack - Depot 2910160
+addappid(2910160, 1, "19b2b6718f6e8962618c27d20350f198aad895292573bc0841fdefae1b6d722f")
 setManifestid(2910160, "1332365548956288646", 0)
 -- American Truck Simulator - JCB Equipment Pack (AppID: 2926440)
 addappid(2926440)
-addappid(2926440, 1, "b627a9bbc7548911abd87d8958ded646bad7986de2d02a9337ca0bf0c54a38c4") -- American Truck Simulator - JCB Equipment Pack - Depot 2926440
-setManifestid(2926440, "8811932060840543556", 0)
+addappid(2926440, 1, "b627a9bbc7548911abd87d8958ded646bad7986de2d02a9337ca0bf0c54a38c4")
+setManifestid(2926440, "7921011583343865359", 0)
 -- American Truck Simulator - Louisiana (AppID: 3012580)
 addappid(3012580)
-addappid(3012580, 1, "27e47b41c142f937c2443d184c2e320e6ddfa5c6d3a9db1ae52f8ca4291afffa") -- American Truck Simulator - Louisiana - Depot 3012580
-setManifestid(3012580, "1967226675789288929", 213718559)
+addappid(3012580, 1, "27e47b41c142f937c2443d184c2e320e6ddfa5c6d3a9db1ae52f8ca4291afffa")
+setManifestid(3012580, "615651419872714227", 199578318)
 -- American Truck Simulator - Iowa (AppID: 3025440)
 addappid(3025440)
-addappid(3025440, 1, "906218b19a08b2cbdd039cbd1ff492f836bae78d9b66f0e3e86bdbb84b7d2bbe") -- American Truck Simulator - Iowa - Depot 3025440
-setManifestid(3025440, "8190253987574838578", 174310164)
+addappid(3025440, 1, "906218b19a08b2cbdd039cbd1ff492f836bae78d9b66f0e3e86bdbb84b7d2bbe")
+setManifestid(3025440, "2759256013499862141", 118806694)
 -- American Truck Simulator - Mack Pinnacle (AppID: 3146090)
 addappid(3146090)
-addappid(3146090, 1, "da6afa0d92f3d63650f282d26ff457bd3cd38aae1452fedea91c085d63ce8daf") -- American Truck Simulator - Mack Pinnacle - Depot 3146090
+addappid(3146090, 1, "da6afa0d92f3d63650f282d26ff457bd3cd38aae1452fedea91c085d63ce8daf")
 setManifestid(3146090, "8340701473470811333", 0)
--- American Truck Simulator - Freightliner Cascadia (The Fifth Generation) (AppID: 3272290)
+-- American Truck Simulator - Freightliner Cascadia® (The Fifth Generation) (AppID: 3272290)
 addappid(3272290)
-addappid(3272290, 1, "890f2186ed56cebb6bd9ebf7268932cb035b7c3ed8982c029062100b29a088fa") -- American Truck Simulator - Freightliner Cascadia (The Fifth Generation) - Depot 3272290
-setManifestid(3272290, "9044226786503734086", 0)
+addappid(3272290, 1, "890f2186ed56cebb6bd9ebf7268932cb035b7c3ed8982c029062100b29a088fa")
+setManifestid(3272290, "3284562101833249356", 0)
+-- American Truck Simulator - Illinois (AppID: 3486960)
+addappid(3486960)
+addappid(3486960, 1, "e69b61b24609bd32d3436db49c9d75afaeffe18b7b92b22608883053d1723729")
+setManifestid(3486960, "7960664714597833164", 163563395)
 -- American Truck Simulator - KRONE Agriculture Equipment (AppID: 3872930)
 addappid(3872930)
-addappid(3872930, 1, "cb2520d903a63702de6165c9c59df18d6269541becfcd40d0805cea67b7f10a0") -- American Truck Simulator - KRONE Agriculture Equipment - Depot 3872930
+addappid(3872930, 1, "cb2520d903a63702de6165c9c59df18d6269541becfcd40d0805cea67b7f10a0")
 setManifestid(3872930, "6332296398029117686", 0)
--- EXCLUDED DLCS:
--- UNRELEASED DLCS (COMMENTED OUT)
--- addappid(3486960) -- DLC 3486960 (unreleased)
--- addappid(3749870) -- DLC 3749870 (unreleased)
--- addappid(3793190) -- DLC 3793190 (unreleased)
--- addappid(3793200) -- DLC 3793200 (unreleased)
--- addappid(4057480) -- DLC 4057480 (unreleased)
+-- American Truck Simulator - Bobcat Cargo Pack (AppID: 4348660)
+addappid(4348660)
+addappid(4348660, 1, "0ab5b459c860e026f449ca58660f873c233ad12f3ff567b7784a2b6bf35afcff")
+setManifestid(4348660, "7046043884242444617", 0)
+
+-- Missing Depots (We don't have the keys yet lol): 526940, 3352290, 3677470, 3749870, 3793190, 3793200, 4057480, 4400790, 4400800, 4583640, 4626270
